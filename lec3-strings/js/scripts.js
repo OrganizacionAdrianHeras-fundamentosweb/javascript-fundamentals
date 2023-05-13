@@ -12,6 +12,9 @@ console.log(cadena.length); // 10
   no será modificada.
 */
 
+// charAt() -> retorna el caracter de un índice en específico.
+console.log(cadena.charAt(1)); // o
+
 // toUpperCase() -> Deveuleve la cadena en mayúsculas
 console.log(cadena.toUpperCase()); // HOLA MUNDO
 console.log(cadena); // Hola mundo
@@ -110,15 +113,3 @@ let edad = 20;
 console.log("Hola " + nombre + " " + apellido + ". Tienes " + edad + " años.");
 console.log(`Hola ${nombre} ${apellido}. Tienes ${edad} años.`);
 console.log(`Hola ${nombre} ${apellido}. El año que viene tendrás ${edad+1} años`);
-
-
-
-
-
-
-
-
-
-
-
-
