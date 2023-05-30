@@ -195,11 +195,3 @@ if(colors.includes(color)) {
   console.log('Tu color no está definido');
 }
 
-
-
-
-
-
-
-
-
