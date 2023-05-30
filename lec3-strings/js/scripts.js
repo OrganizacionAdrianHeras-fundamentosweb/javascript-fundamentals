@@ -12,8 +12,11 @@ console.log(cadena.length); // 10
   no será modificada.
 */
 
-// charAt() -> retorna el caracter de un índice en específico.
+// charAt() 
+// [] -> 
+// retorna el caracter de un índice en específico.
 console.log(cadena.charAt(1)); // o
+console.log(cadena[1]); // o
 
 // toUpperCase() -> Deveuleve la cadena en mayúsculas
 console.log(cadena.toUpperCase()); // HOLA MUNDO

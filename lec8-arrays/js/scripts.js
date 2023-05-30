@@ -88,6 +88,14 @@ console.log(numeros.lastIndexOf(1)); // 6
 console.log(numeros.lastIndexOf(0)); // -1
 
 /*
+  .include() - Devuelve un valor booleano, true si el elemento está incluido
+  en la lista
+*/
+
+console.log(numeros.includes(1)); // true
+console.log(palabras.includes('Estamos')); // false
+
+/*
   .reverse() - Invierte el orden de los elementos del array
 */
 
