@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a,
+button {
+  display: block;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.red {
+  background-color: hsl(0 100% 50%);
+}
+
+.green {
+  background-color: hsl(120 60% 50%);
+}
