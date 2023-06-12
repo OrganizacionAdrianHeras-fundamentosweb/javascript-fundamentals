@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+form {
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+input {
+  flex-basis: 40%;
+}
+
+label {
+  flex-basis: 40%;
+}
+
+input[type="submit"] {
+  margin-right: auto;
+}
