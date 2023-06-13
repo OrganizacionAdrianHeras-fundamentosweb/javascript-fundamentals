@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Librería expresiones Javascript</title>
+</head>
+<body>
+  <!-- FORM -->
+  <h1 class="title">FORM</h1>
+  <form id="form" class="form" action="#">
+    <fieldset>
+      <legend>Personal information</legend>
+      <div class="group__personal">
+        <div class="group__name">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+        </div>
+        <div class="group__email">
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email">
+        </div>
+        <div class="group__course">
+          <label>Course:</label>
+          <select id="course" name="course">
+            <option value="" selected></option>
+            <optgroup label="mathematic">
+              <option value="aritmethic">Arithmethic</option>
+              <option value="algebra">Algebra</option>
+              <option value="geometry">Geometry</option>
+            </optgroup>
+            <optgroup label="letter">
+              <option value="literature">Literature</option>
+              <option value="language">Language</option>
+              <option value="history">History</option>
+            </optgroup>
+          </select>
+        </div>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Gender</legend>
+      <div id="gender" class="group__gender">
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+      </div>
+    </fieldset>
+    <div class="group__terms">
+      <label for="terms">Do you accept the temrs of License?</label>
+      <input type="checkbox" id="terms" name="terms">
+    </div>
+    <button id="button" class="button" disabled>Enviar</button>
+  </form>
+  <script src="./js/scripts.js"></script>
+</body>
+</html>

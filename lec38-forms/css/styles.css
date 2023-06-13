@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 400px 1fr;
+}
+
+.title {
+  grid-column: 2;
+  background-color: hsl(210 100% 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  grid-column: 2;
+  grid-row: 2;
+  padding: 2em;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  background-color: hsl(0 100% 50%);
+  text-align: center;
+}
+
+.form__field {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 15px;
+}

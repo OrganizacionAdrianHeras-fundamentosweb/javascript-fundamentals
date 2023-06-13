@@ -44,6 +44,9 @@ función indicada una vez por cada elemento del array.
 .filter(callback) - Filtra todos los elementos del array que cumplan la condición
 y devuelve el nuevo array.
 .reduce(callback) - Reduce todos los elementos del array a un único valor.
+.find(callback) - Devuelve el primer elemento de la lista que cumpla la condición
+.findIndex(callback) - Devuelve el índice del primer elemento de la lista que cumpla la condición.
+                       Si no encuentra nada, retornará -1.
 */
 
 const numbers = [1,2,3,4,5];
@@ -55,7 +58,11 @@ const numbers = [1,2,3,4,5];
 // const numbers2 = numbers.filter((num) => num > 80);
 // console.log(numbers2);
 
-console.log(numbers.reduce((a,b) => a+b));
+// console.log(numbers.reduce((a,b) => a+b));
+
+// console.log(numbers.find((n) => n == 3));
+
+// console.log(numbers.findIndex((n) => n == 6))
 
 const users = [
   {

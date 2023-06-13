@@ -2,6 +2,7 @@
 Atributos
   element.getAttribute('attribute')
   element.setAttribute('attribute', value);
+  element.removeAttribute('attribute');
 
   Clases
   element.classList.add('class','class',...)

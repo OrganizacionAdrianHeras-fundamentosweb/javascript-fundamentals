@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Form I Javascript</title>
+</head>
+<body>
+  <h1 id="title" class="title">Forms I</h1>
+  <form action="#" method="get" class="form" id="form">
+    <div class="form__field">
+      <label for="name" class="form__label">Name:</label>
+      <input type="text" id="name" name="name">
+    </div>
+    <div class="form__field">
+      <label for="email">E-mail:</label>
+      <input type="text" id="email" name="email">
+    </div>
+    <div id="gender" class="form__field">
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="gender" value="female">
+    </div>
+    <div class="form_field">
+      <label for="terms">I accept the terms and conditions</label>
+      <input type="checkbox" id="terms" name="terms">
+    </div>
+    <button id="submitButton" disabled>Send</button>
+  </form>
+  <script src="./js/scripts.js"></script>
+</body>
+</html>
