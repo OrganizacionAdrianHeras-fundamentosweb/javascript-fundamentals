@@ -6,7 +6,7 @@ Realiza el ejercicio con prompt(mensaje) y haz uso de los template strings.
 
 // let name = prompt('Introduce tu nombre');
 // parseando una cadena a entero
-// let age = parseInt(prompt('Introduce tu edad'));
+// let age = Number.parseInt(prompt('Introduce tu edad'));
 
 // console.log(`Hola ${name} tienes ${age} años y el año que viene tendrás ${age + 1} años`);
 
@@ -55,7 +55,7 @@ número con el mensaje "es par" o "es impar" si el número es 5 el resultado ser
   5 - es impar
 */
 
-// let num = parseInt(prompt('Introduce un número'));
+// let num = Number.parseInt(prompt('Introduce un número'));
 
 // for(let i = 1; i<=num; i++) {
 //   if(i%2 == 0) {
@@ -70,7 +70,7 @@ número con el mensaje "es par" o "es impar" si el número es 5 el resultado ser
   Un número primo es aquel que solo es divisible por sí mismo y la unidad.
 */
 
-// let num = parseInt(prompt('Introduce un número'));
+// let num = Number.parseInt(prompt('Introduce un número'));
 // let divisores = 0;
 
 // if(num === 1) console.log('El número no es válido');
@@ -94,7 +94,7 @@ número con el mensaje "es par" o "es impar" si el número es 5 el resultado ser
   !5 = 5*4*3*2*1 = 120
 */
 
-// let num = parseInt(prompt('Introduce un número'));
+// let num = Number.parseInt(prompt('Introduce un número'));
 // let result = 1;
 
 // for(let i=num; i>=1; i--) {
@@ -114,7 +114,7 @@ números se han introducido.
 // let cont = 0;
 
 // while(suma <= 50) {
-//   suma += parseInt(prompt(`Introduce un numero para añadir a la suma [${suma}]`));
+//   suma += Number.parseInt(prompt(`Introduce un numero para añadir a la suma [${suma}]`));
 //   cont++;
 // }
 // console.log(`La suma total es de ${suma}`);
@@ -159,7 +159,7 @@ introducido entre 23.
 
 // const dni = prompt('Introduce tu DNI');
 
-// if(dni.length == 8 && parseInt(dni) > 0) {
+// if(dni.length == 8 && Number.parseInt(dni) > 0) {
 //   let pos = dni%23;
 //   console.log(`Tu dni completo ${dni}${letras[pos]}`);
 // }

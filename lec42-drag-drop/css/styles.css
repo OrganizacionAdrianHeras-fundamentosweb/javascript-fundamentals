@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.smile {
+  max-width: 10vw;
+  margin-bottom: 200px;
+}
+
+.drop-zone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vw;
+  background-color: hsl(0 100% 50%);
+  border: 5px dashed #111;
+}

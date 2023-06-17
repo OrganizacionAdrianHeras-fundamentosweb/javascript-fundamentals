@@ -27,7 +27,13 @@ const paragraphs = document.querySelectorAll('.paragraph');
 const paragraphsSpread = [...document.querySelectorAll('.paragraph')];
 const paragraphsArray = Array.from(document.querySelectorAll('.paragraph'));
 
-/*Se puede dar estilo con javascript, aunque no es recomendable*/
+/*
+  Se puede dar estilo con javascript, aunque no es recomendable
+  Primera forma:
+    element.style.color = 'hsl(0 100% 50%)';
+  Segunda forma:
+    element.style.setProperty('color', 'hsl(0 100% 50%)');
+*/
 // paragraphs[0].style.color = 'hsl(0 100% 50%)';
 
 /*el nodeList no es un array, por lo que la función map no se reconoce*/

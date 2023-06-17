@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 10px;
+}
+
+.form {
+  margin-bottom: 5px;
+}
+
+.form__field {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2px;
+  width: 200px;
+}
+
+.info {
+  display: flex;
+}
+
+.info > p {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+

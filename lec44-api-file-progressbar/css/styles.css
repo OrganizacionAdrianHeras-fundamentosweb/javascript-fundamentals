@@ -1,0 +1,46 @@
+:root {
+  --bar-width: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  user-select: none;
+  height: 100vh;
+  background-image: radial-gradient(circle at left top, pink, purple);
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+}
+
+.load-bar {
+  margin: 1rem 0;
+  width: 50%;
+  height: 10px;
+  background-color: #ccc;
+}
+
+.load-pseudo::before {
+  content: '';
+  display: block;
+  width: var(--bar-width);
+  height: inherit;
+  background-image: repeating-linear-gradient(45deg,cyan 0 10px, purple 10px 20px);
+  transition: width 2s;
+}
+
+.progress {
+  display: block;
+  width: 0;
+  height: inherit;
+  transition: width 2s;
+  background-image: linear-gradient(-135deg, transparent 7px, purple 7px);
+}
+
