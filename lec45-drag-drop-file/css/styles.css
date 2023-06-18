@@ -12,6 +12,7 @@ body {
   font-family: sans-serif;
   color: #fff;
   background-color: #222;
+  user-select: none;
 }
 
 .hide {
@@ -36,6 +37,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   margin-bottom: 10px;
   width: 400px;
   height: 400px;
@@ -73,4 +75,10 @@ body {
   height: 10px;
   background-image: repeating-linear-gradient(45deg, pink 0 10px, purple 10px 20px);
   transition: var(--bar-transition);
+}
+
+.icon-upload {
+  margin-bottom: 1em;
+  font-size: 2rem;
+  color: hsl(0 100% 50%);
 }

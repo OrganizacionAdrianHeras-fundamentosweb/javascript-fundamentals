@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>IndexedDB II Javascript</title>
+</head>
+<body>
+  <form action="" id="form" class="form">
+    <label for="task">Task</label>
+    <input type="text" id="inpName" name="task">
+    <select id="selName" name="priority">
+      <option value="low" selected>Low</option>
+      <option value="normal">Normal</option>
+      <option value="high">High</option>
+    </select>
+    <button id="button" class="button" data-action="add">Add Task</button>
+  </form>
+  <div id="tasks" class="tasks"></div>
+  <script src="./js/scripts.js"></script>
+</body>
+</html>
