@@ -18,7 +18,7 @@ fileInput.addEventListener('change', (e) => {
     root.style.setProperty('--bar-width', porc);
   });
 
-  fileReader.addEventListener('loadend', (e) => {
+  fileReader.addEventListener('loadend', () => {
     // console.log(e.loaded / e.total* 100);
     const porc = '100%';
     progress.style.width = porc;

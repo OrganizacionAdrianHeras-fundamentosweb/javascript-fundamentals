@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: radial-gradient(circle at left top, purple, pink);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container-video {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.asset-video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  line-height: 0;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
