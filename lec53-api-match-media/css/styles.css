@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  user-select: none;
+}
+
+.title {
+  text-align: center;
+}
+
+.bg-red {
+  background-color: hsl(0 100% 50%);
+}
+
+.bg-royalblue {
+  background-color: royalblue;
+}
+
+.color-white {
+  color:white;
+}
+
+.color-2a2a2a {
+  color: #2a2a2a;
+}
+
+/* @media screen and (min-width: 600px) and (orientation: landscape) {
+  body {
+    background-color: #fff;
+  }
+
+  .title {
+    color: #2a2a2a;
+  }
+} */
