@@ -18,6 +18,10 @@ keyup vs keypress:
     son caracteres provocan los eventos keydown y keyup.
   . keypress se activa después del evento keydown. Según la configuración del retraso de escritura,
     puede haber eventos keydown y keypress, pero solo un evento keyup.
+
+input - cuando cambiar el valor de un elemento input.
+        Es común usarlo en elementos input donde tengas que escribir (de tipo: text, password),
+        ya que en este tipo de inputs se activa el evento cada vez que escribes.
 */
 
 const button = document.getElementById('button');
@@ -64,6 +68,8 @@ const box = document.getElementById('box');
 //   console.log('estas pulsando una tecla');
 // });
 
-
-
+// input.addEventListener('input', (e) => {
+//   console.log('estas cambiando el valor del input')
+//   console.log(e.data);
+// })
 
