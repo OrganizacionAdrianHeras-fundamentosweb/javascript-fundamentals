@@ -129,21 +129,21 @@ if(indexedDB && form) {
   };
 
   const addElementTaskToFragment = (key, taskValue, fragment) => {
-    const taskTitle = document.createElement('p');
+    const taskTitle = document.createElement('P');
     taskTitle.textContent = taskValue.taskTitle;
     fragment.append(taskTitle);
 
-    const taskPriority = document.createElement('p');
+    const taskPriority = document.createElement('P');
     taskPriority.textContent = taskValue.taskPriority;
     fragment.append(taskPriority);
 
-    const taskUpdate = document.createElement('button');
+    const taskUpdate = document.createElement('BUTTON');
     taskUpdate.dataset.key = key;
     taskUpdate.dataset.action = 'update';
     taskUpdate.textContent = 'Update';
     fragment.append(taskUpdate);
 
-    const taskDelete = document.createElement('button');
+    const taskDelete = document.createElement('BUTTON');
     taskDelete.dataset.key = key;
     taskDelete.dataset.action = 'delete';
     taskDelete.textContent = 'Delete';

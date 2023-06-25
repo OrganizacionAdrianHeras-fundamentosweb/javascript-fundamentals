@@ -14,7 +14,7 @@ button.addEventListener('click', () => {
     if(!list.hasChildNodes()) {
       const fragmentList = document.createDocumentFragment();
       for(const userInfo of dataJson) {
-        const listItem = document.createElement('li');
+        const listItem = document.createElement('LI');
         listItem.textContent = `${userInfo.id} - ${userInfo.name}`;
         fragmentList.append(listItem);
       }

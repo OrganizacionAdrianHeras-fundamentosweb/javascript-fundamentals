@@ -45,7 +45,7 @@ fileInput.addEventListener('change', (e) => {
     const fileReader = new FileReader();
     fileReader.readAsDataURL(file);
 
-    const img = document.createElement('img');
+    const img = document.createElement('IMG');
     img.setAttribute('alt', `img-${++cont}`);
     fragment.append(img);
 

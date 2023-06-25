@@ -22,7 +22,7 @@ const getData = (id) => {
 
       const fragmentSelect = document.createDocumentFragment();
       for(const heroe of dataJSON) {
-        const option = document.createElement('option');
+        const option = document.createElement('OPTION');
         option.setAttribute('value', heroe.id);
         option.textContent = heroe.name;
         fragmentSelect.append(option);
@@ -37,10 +37,10 @@ const getData = (id) => {
 
       const fragmentTable = document.createDocumentFragment();
       for(const heroe of dataJSON) {
-        const row = document.createElement('tr');
-        const dataName =  document.createElement('td');
-        const dataGender = document.createElement('td');
-        const dataFighting = document.createElement('td');
+        const row = document.createElement('TR');
+        const dataName =  document.createElement('TD');
+        const dataGender = document.createElement('TD');
+        const dataFighting = document.createElement('TD');
 
         dataName.textContent = heroe.name;
         dataGender.textContent = heroe.gender;

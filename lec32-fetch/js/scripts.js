@@ -34,7 +34,7 @@ button.addEventListener('click', () => {
       if(list.children.length == 0) {
         const fragment = document.createDocumentFragment();
         for(let data of res) {
-          const elemLi = document.createElement('li');
+          const elemLi = document.createElement('LI');
           elemLi.textContent = `${data.name} - ${data.email}`
           fragment.append(elemLi);
         }

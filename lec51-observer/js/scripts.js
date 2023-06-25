@@ -5,7 +5,7 @@ const getImages = () => {
       const fragment = document.createDocumentFragment();
       const data = res.data;
       data.forEach((e) => {
-        const newImage = document.createElement('img');
+        const newImage = document.createElement('IMG');
         newImage.setAttribute('src', e.download_url);
         fragment.append(newImage);
       });

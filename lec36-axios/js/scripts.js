@@ -11,7 +11,7 @@ buttonAxio.addEventListener('click', () => {
     if(list.children.length == 0) {
       const fragment = document.createDocumentFragment();
       for(user of res.data) {
-        const li = document.createElement('li');
+        const li = document.createElement('LI');
         li.textContent = `${user.id} - ${user.name}`;
         fragment.append(li);
       }
@@ -29,7 +29,7 @@ buttonFetch.addEventListener('click', () => {
     if(list.children.length == 0) {
       const fragment = document.createDocumentFragment();
       for(const user of data) {
-        const li = document.createElement('li');
+        const li = document.createElement('LI');
         li.textContent = `${user.id} - ${user.name}`;
         fragment.append(li);
       }

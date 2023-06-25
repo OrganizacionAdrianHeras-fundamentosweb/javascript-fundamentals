@@ -19,7 +19,7 @@ Insertar y eliminar elementos II
 */
 
 const list = document.getElementById('list');
-const newElement = document.createElement('li');
+const newElement = document.createElement('LI');
 newElement.textContent = "I'm a new element";
 
 // list.appendChild(newElement);
