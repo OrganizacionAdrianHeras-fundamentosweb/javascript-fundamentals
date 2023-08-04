@@ -87,7 +87,19 @@ if(respuesta == false) console.log(`${respuesta} tiene el valor false`);
 if(respuesta) console.log(`${respuesta} tiene el valor true`);
 if(!respuesta) console.log(`${respuesta} tiene el valor false`);
 
+/*
+ The nullish Coalescing Operator (??)
+*/
+let numbers = [1,2];
+console.log(numbers ?? 'hola'); // [1,2]
+numbers = null;
+console.log(numbers ?? 'hola'); // hola
+numbers = []
+console.log(numbers ?? 'hola'); // hola
 
-
-
-
+let obj = {edad: 1}
+console.log(obj ?? 'hola'); // {edad: 1}
+obj = null
+console.log(obj ?? 'hola'); // hola
+obj = {}
+console.log(obj ?? 'hola'); // hola
